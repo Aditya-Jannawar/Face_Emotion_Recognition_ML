@@ -1,29 +1,34 @@
 # Face Emotion Recognition Project
 
-This project aims to recognize emotions from facial expressions using deep learning techniques.
+## Overview
 
-## Introduction
+This project is designed to recognize emotions from facial expressions using deep learning techniques. It utilizes Convolutional Neural Networks (CNNs) to classify images of faces into different emotion categories such as happy, sad, disgust, and surprise.
 
-[Add your project introduction here]
+## Features
+
+- Emotion recognition from facial expressions
+- Utilizes CNNs for image classification
+- Supports multiple emotion categories
+- Easy to use and integrate
+
+## Libraries Used
+
+- Keras
+- TensorFlow
+- Pandas
+- NumPy
+- Matplotlib
 
 ## Usage
 
-[Add instructions on how to use your project here]
+To use this project, follow these steps:
 
-## Examples
-
-### Sad Emotion
-![Sad Emotion 1](D:/New folder (2)/face emotion recognition prj/images/test/sad/231.jpg)
-![Sad Emotion 2](D:/New folder (2)/face emotion recognition prj/images/test/sad/987.jpg)
-
-### Disgust Emotion
-![Disgust Emotion](D:/New folder (2)/face emotion recognition prj/images/test/disgust/1115.jpg)
-
-### Happy Emotion
-![Happy Emotion](D:/New folder (2)/face emotion recognition prj/images/test/happy/213.jpg)
-
-### Surprise Emotion
-![Surprise Emotion](D:/New folder (2)/face emotion recognition prj/images/test/surprise/675.jpg)
+1. Install the required libraries mentioned above.
+2. Prepare your dataset with images of facial expressions categorized by emotions (e.g., happy, sad, disgust, surprise).
+3. Organize your dataset into training and testing directories.
+4. Run the provided Python script to train the CNN model on your dataset.
+5. Evaluate the trained model on the testing dataset to measure its performance.
+6. Use the trained model to predict emotions from new facial expression images.
 
 ## License
 
